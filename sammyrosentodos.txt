@@ -1,0 +1,11 @@
+Sam Notes:
+
+* Graceful Degradation
+* iFrames
+* Cufon
+* Secondary Pages
+* Links Underlined?
+* Favicon
+* Meta Data
+* Analytics
+* Sub Nav (Multiple Links)
