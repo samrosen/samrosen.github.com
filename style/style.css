@@ -1,0 +1,54 @@
+html {
+}
+body {
+	position:relative;
+  background-image: url(../images/map.jpg);
+}
+#toolbar {
+	position:absolute;
+	top:80px;
+	width:100%;
+	color:#fff;
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+	font-size: 18px;
+	min-width:780px;
+}
+#toolbar .main {
+  padding:18px 0;
+  overflow:hidden;
+  background-color: black;
+  opacity: 0.70;
+}
+#toolbar a {
+  text-decoration:none;
+  border-bottom:1px solid #fff;
+  padding-bottom:1px;
+  color:#fff;
+}
+#toolbar h1 {
+	float:left;
+	margin-left:18px;
+}
+#toolbar h1 a {border:none;}
+#toolbar .nav {
+	margin-right:18px;
+}
+#toolbar .nav .who, #toolbar .nav .what, #toolbar .nav .where, #toolbar .nav .with {position:absolute;}
+#toolbar .nav .who {right:204px;}
+#toolbar .nav .what {right:142px;}
+#toolbar .nav .where {right:72px;}
+#toolbar .nav .with {right:22px;}
+#hidden_bar {
+  overflow:hidden;
+  clear:both;
+  padding:18px 0;
+  background:#000;
+  opacity:0.85;
+}
+#hidden_bar .headline {
+  float:left;
+  margin-left:18px;
+  width:530px;
+  font-size:14px;
+}
+#hidden_bar .nav {font-size:12px;}
