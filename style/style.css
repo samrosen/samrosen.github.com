@@ -6,6 +6,7 @@ body {
 }
 #toolbar {
 	position:absolute;
+	top:70px;
 	width:100%;
 	color:#fff;
 	font-family: Helvetica, Verdana, Arial, sans-serif;

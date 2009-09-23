@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: default
 title: this is crazy
 category: what
 headline: does this work?
