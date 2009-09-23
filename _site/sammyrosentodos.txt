@@ -2,11 +2,11 @@
 
 * Graceful Degradation
 * iFrames
-* Secondary Pages
-* Links Underlined?
+* Custom 404
+* Secondary Pages - Styling 
+* Links Hover State - s
 * Favicon - s
 * Meta Data - s
 * Analytics - s
 * Sub Nav (Multiple Links)
 * RSS Feed
-* 404 Page

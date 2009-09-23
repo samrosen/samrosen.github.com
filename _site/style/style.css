@@ -29,6 +29,7 @@ body {
 	float:left;
 	margin-left:18px;
 }
+
 #toolbar h1 a {border:none;}
 #toolbar .nav {margin-right:18px;}
 #toolbar .nav .who, #toolbar .nav .what, #toolbar .nav .where, #toolbar .nav .with {position:absolute;}
