@@ -1,12 +1,16 @@
 # Sam Notes:
 
-* Graceful Degradation
 * iFrames
-* Custom 404
-* Secondary Pages - Styling 
-* Links Hover State - s
+
+* Twitter Style Bug - D
+
+* Browser Testing
+* Correct Content
 * Favicon - s
 * Meta Data - s
-* Analytics - s
-* Sub Nav (Multiple Links)
-* RSS Feed
+
+* Fix DNS Stuff
+
+* Carousel for Who
+* Custom 404
+* Graceful Degradation

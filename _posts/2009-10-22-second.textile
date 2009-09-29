@@ -1,7 +1,7 @@
 ---
 layout: default
 title: i love it
-category: where
+category:
 headline: totally blown away
 background: blue
 toolbar_top: 0

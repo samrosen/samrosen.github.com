@@ -1,8 +1,8 @@
 ---
 layout: default
 title: not bad
-category: where
-headline: does this work?
+category:
+headline: does this work
 background: red
 toolbar_top: 0
 ---

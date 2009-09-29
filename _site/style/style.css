@@ -3,6 +3,10 @@ html {
 body {
 	position:relative;
   background-image: url(../images/map.jpg);
+  overflow:hidden;
+}
+iframe {
+  margin-top:58px;
 }
 #toolbar {
 	position:absolute;
@@ -21,7 +25,6 @@ body {
 }
 #toolbar a {
   text-decoration:none;
-  border-bottom:1px solid #fff;
   padding-bottom:1px;
   color:#fff;
 }
@@ -32,29 +35,44 @@ body {
 
 #toolbar h1 a {border:none;}
 #toolbar .nav {margin-right:18px;}
+#toolbar .nav a {border-bottom:1px solid #fff;}
+#toolbar .nav a:hover {border-bottom:0}
 #toolbar .nav .who, #toolbar .nav .what, #toolbar .nav .where, #toolbar .nav .with {position:absolute;}
-#toolbar .nav .who {right:274px;}
-#toolbar .nav .what {right:195px;}
-#toolbar .nav .where {right:110px;}
+#toolbar .nav .who {right:272px;}
+#toolbar .nav .what {right:190px;}
+#toolbar .nav .where {right:98px;}
 #toolbar .nav .with {right:22px;}
+#toolbar .nav ul {top:68px;}
+body.who #toolbar .nav .who, body.what #toolbar .nav .what, body.where #toolbar .nav .where, body.with #toolbar .nav .with {border-bottom:0;}
 #toolbar .hidden_bar {
   padding:18px 0;
   background:#000;
   opacity:0.85;
-  height:70px;
+  height:95px;
 }
+
 #toolbar .hidden_bar .headline {
   float:left;
   margin-left:18px;
-  width:530px;
-  font-size:14px;
+  width:400px;
+  font-size:20px;
 }
+
+#toolbar .hidden_bar .twitter_feed {
+    font-size:12px;
+    padding: 2px 0px;
+}
+
 #toolbar .hidden_bar .nav {font-size:12px;}
-#toolbar .hidden_bar .nav li {padding:5px 0;}
+#toolbar .hidden_bar .nav li {padding:4px 0;}
 #content {
   margin:0 18px;
   position:relative;
-  top:200px;
+  top:210px;
+  color:#fff;
+  width: 780px;
+  font-size: 26px;
+  line-height: 1.3;
 }
 #content h2 {}
 #content h3 {}
@@ -62,6 +80,13 @@ body {
 #content p {
   color:#fff;
 }
-#content a {}
+#content img {
+  float: left;
+  padding-right: 10px;
+}
+#content a {
+  color:#fff;
+  border-bottom: 1px solid;
+}
 #content ul {}
-#content li
+#content li {}
