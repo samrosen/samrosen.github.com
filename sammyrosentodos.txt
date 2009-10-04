@@ -7,7 +7,6 @@
 
 * Browser Testing
 * colors
-* where section?
 * fix leave
 * colors for other pages
 
