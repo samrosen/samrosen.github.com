@@ -1,0 +1,13 @@
+---
+layout: default
+title: twitter
+category: where
+headline: http://www.twitter.com/rosenboy
+background: black
+toolbar_top: 0
+hidden_bar_opacity: 1.0
+has_iframe: true
+iframe_source: http://www.twitter.com/rosenboy
+---
+
+<div></div>

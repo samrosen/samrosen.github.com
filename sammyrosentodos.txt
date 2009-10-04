@@ -1,16 +1,20 @@
 # Sam Notes:
 
-* iFrames
-
+* iFrames - D
 * Twitter Style Bug - D
 
-* Browser Testing
-* Correct Content
-* Favicon - s
-* Meta Data - s
+* Fix Timing on Rollout.s
 
-* Fix DNS Stuff
+* Browser Testing
+* colors
+* where section?
+* fix leave
+* colors for other pages
 
 * Carousel for Who
 * Custom 404
 * Graceful Degradation
+
+* Fix DNS Stuff
+
+

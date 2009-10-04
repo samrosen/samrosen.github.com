@@ -1,0 +1,13 @@
+---
+layout: default
+title: facebook
+category: where
+headline: http://www.facebook.com/rosenboy?ref=profile
+background: black
+toolbar_top: 0
+hidden_bar_opacity: 1.0
+has_iframe: true
+iframe_source: http://www.facebook.com/rosenboy?ref=profile
+---
+
+<div></div>
