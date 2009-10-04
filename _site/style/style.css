@@ -4,6 +4,7 @@ body {
 	position:relative;
   background-image: url(../images/map.jpg);
   overflow:auto;
+  height:100%;
 }
 iframe {
   margin-top:58px;
@@ -90,10 +91,6 @@ body.who #toolbar .nav .who, body.what #toolbar .nav .what, body.where #toolbar 
   color:#fff;
   border-bottom: 1px solid;
 }
-
 #content a:visited {
   border-bottom: 1px solid #D0D0D0;
 }
-
-#content ul {}
-#content li {}

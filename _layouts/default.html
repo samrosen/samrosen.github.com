@@ -11,9 +11,12 @@
 	<style type="text/css">
     body {
       background: {{ page.background }};
-      {% if has_iframe %}
+      {% if page.has_iframe %}
         overflow:hidden;
       {% endif %}
+    }
+    iframe {
+      height: {{ page.iframe_height }};
     }
     #toolbar {
       top: {{ page.toolbar_top }}px;
