@@ -55,7 +55,7 @@ body.who #toolbar .nav .who, body.what #toolbar .nav .what, body.where #toolbar 
 #toolbar .hidden_bar .headline {
   float:left;
   margin-left:18px;
-  width:45px;
+  width:450px;
   font-size:20px;
 }
 

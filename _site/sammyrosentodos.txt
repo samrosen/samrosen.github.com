@@ -3,14 +3,13 @@
 * iFrames - D
 * Twitter Style Bug - D
 
-* Fix Timing on Rollout.s
+* Fix Timing on Rollout
+* Carousel for Who
 
 * Browser Testing
 * colors
 * fix leave
-* colors for other pages
-
-* Carousel for Who
+* colors for other page headers
 * Custom 404
 * Graceful Degradation
 
