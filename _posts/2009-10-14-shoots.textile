@@ -5,7 +5,7 @@ category: with
 headline: http://www.samshoots.com
 background: black
 toolbar_top: 0
-hidden_bar_opacity: 1.0
+hidden_bar_opacity: .8
 has_iframe: true
 iframe_source: http://www.samshoots.com
 ---

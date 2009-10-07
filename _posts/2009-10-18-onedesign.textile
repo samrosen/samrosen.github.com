@@ -3,11 +3,15 @@ layout: default
 title: one design
 category: with
 headline: http://www.onedesigncompany.com
-background: black
+main_background: "#5e8d2a"
+hidden_bar_background: "#5e8d2a"
+background: "#5e8d2a"
+main_opacity: 1
 toolbar_top: 0
-hidden_bar_opacity: 1.0
+hidden_bar_opacity: .9
 has_iframe: true
 iframe_source: http://www.onedesigncompany.com
 ---
 
 <div></div>
+

@@ -4,7 +4,7 @@ title: facebook
 category: where
 headline: http://www.facebook.com/rosenboy?ref=profile
 main_background: "#3b5998"
-hidden_bar_background: "#3b5998"
+hidden_bar_background: "#2f4575"
 background: "#FFF"
 main_opacity: 1
 hidden_bar_opacity: .9

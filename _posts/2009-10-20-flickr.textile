@@ -3,9 +3,12 @@ layout: default
 title: flickr
 category: where
 headline: http://www.flickr.com/photos/samshoots
-background: black
+main_background: "#0063dc"
+hidden_bar_background: "#0063dc"
+background: "#FFF"
 toolbar_top: 0
-hidden_bar_opacity: 1.0
+main_opacity: 1
+hidden_bar_opacity: .8
 has_iframe: true
 iframe_source: http://www.flickr.com/photos/samshoots
 ---

@@ -4,8 +4,12 @@ title: linkedin
 category: where
 headline: http://www.linkedin.com/in/onedesign
 background: black
+main_background: "#006699"
+hidden_bar_background: "#006699"
+background: "#FFF"
+main_opacity: 1
 toolbar_top: 0
-hidden_bar_opacity: 1.0
+hidden_bar_opacity: .9
 has_iframe: true
 iframe_source: http://www.linkedin.com/in/onedesign
 ---

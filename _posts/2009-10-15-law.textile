@@ -3,9 +3,12 @@ layout: default
 title: one law
 category: with
 headline: http://www.onelawcompany.com
-background: black
+main_background: "#00415b"
+hidden_bar_background: "#00415b"
+background: "#00415b"
 toolbar_top: 0
-hidden_bar_opacity: 1.0
+main_opacity: 1
+hidden_bar_opacity: .8
 has_iframe: true
 iframe_source: http://www.onelawcompany.com
 ---
