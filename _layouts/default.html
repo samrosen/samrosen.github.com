@@ -17,7 +17,9 @@
     }
     iframe {
       height: {{ page.iframe_height }};
+      margin-top: {{ page.iframe_margin}}
     }
+    
     #toolbar {
       top: {{ page.toolbar_top }}px;
     }
@@ -58,11 +60,11 @@
     <div class='hidden_bar'>
       <div class="headline">
         {{ page.headline }}
-        {% if page.has_twitter %}
-          <div class="twitter_feed"></div>
-        {% endif %}
         {% if page.has_iframe %}
             <a href="{{ page.iframe_source }}">leave sammyrosen.com</a>
+        {% endif %}
+        {% if page.has_twitter %}
+          <div class="twitter_feed"></div>
         {% endif %}
       </div>
 
@@ -98,12 +100,14 @@
   <div id="content">
     {{ content }}
   </div>
-
   <script src="/scripts/jquery-1.3.2.js" type="text/javascript" charset="utf-8"></script>
 	<script src="/scripts/cofon-yui.js" type="text/javascript" charset="utf-8"></script>
 	<script src="/scripts/VAG_Rounded_300-VAG_Rounded_700.font.js" type="text/javascript" charset="utf-8"></script>  
   <script src="/scripts/jquery.hoverIntent.js" type="text/javascript" charset="utf-8"></script> 
   <script src="/scripts/jquery.twitter.js" type="text/javascript" charset="utf-8"></script> 
+      <script src="/scripts/jcarousellite_1.0.1.js" type="text/javascript" charset="utf-8"></script>
+
+  
   <script src="/scripts/script.js" type="text/javascript" charset="utf-8"></script>
   <script type="text/javascript"> Cufon.now(); </script>
   

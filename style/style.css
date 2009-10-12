@@ -94,3 +94,18 @@ body.who #toolbar .nav .who, body.what #toolbar .nav .what, body.where #toolbar 
 #content a:visited {
   border-bottom: 1px solid #D0D0D0;
 }
+#content .slideshow { position:relative; float:left; }
+#content button {
+  color:#fff;
+  font-size:25px;
+  border:none;
+  background:#000;
+  opacity:0.7;
+  padding:0px 7px 5px;
+  position:absolute;
+  top:125px;
+  z-index:10000;
+  display:none;
+}
+#content button.prev { left:40px; }
+#content button.next { left:325px; }

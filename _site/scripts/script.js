@@ -38,5 +38,21 @@ $(document).ready(function(){
     } // function = onMouseOut callback (REQUIRED)
    }
    $('#toolbar').hoverIntent(hiConfig);
+   
+   $(".slideshow").jCarouselLite({
+       btnNext: ".next",
+       btnPrev: ".prev",
+       visible: 1,
+       speed: 700,
+       mouseWheel: true
+   });
+   
+   $('#content .slideshow li').live("mouseover", function(){
+     var buttons = $("button")
+     buttons.fadeIn();
+     $(this).mouseout(function(){
+       buttons.fadeOut('slow');
+     })
+   })
 
 });

@@ -3,16 +3,16 @@
 * iFrames - D
 * Twitter Style Bug - D
 
-* Fix Timing on Rollout
-* Carousel for Who
+*** Fix Timing on Rollout
+*** Carousel for Who
 
-* Browser Testing
+
+*** Browser Testing
 * colors
 * fix leave
-* colors for other page headers
 * Custom 404
 * Graceful Degradation
-
+* iPhone Versopm
 * Fix DNS Stuff
 
 
