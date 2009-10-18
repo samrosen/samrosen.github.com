@@ -4,15 +4,13 @@
 * Twitter Style Bug - D
 
 *** Fix Timing on Rollout
-*** Carousel for Who
-
-
+*** Carousel Images (Compressed) & Fix Buttons
 *** Browser Testing
-* colors
-* fix leave
+
 * Custom 404
 * Graceful Degradation
-* iPhone Versopm
-* Fix DNS Stuff
+* iPhone Version
+
+* Launch with Fix DNS Stuff - S
 
 

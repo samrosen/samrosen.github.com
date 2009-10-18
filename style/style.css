@@ -36,7 +36,7 @@ iframe {
 
 #toolbar h1 a {border:none;}
 #toolbar .nav {margin-right:18px;}
-#toolbar .nav a {border-bottom:1px solid #fff;}
+#toolbar .nav a {border-bottom:0;}
 #toolbar .nav a:hover {border-bottom:0}
 #toolbar .nav .who, #toolbar .nav .what, #toolbar .nav .where, #toolbar .nav .with {position:absolute;}
 #toolbar .nav .who {right:272px;}
@@ -55,8 +55,15 @@ body.who #toolbar .nav .who, body.what #toolbar .nav .what, body.where #toolbar 
 #toolbar .hidden_bar .headline {
   float:left;
   margin-left:18px;
-  width:450px;
+  width: 550px;
   font-size:20px;
+}
+
+#toolbar .hidden_bar .headline .link a{
+  margin-top:5px;
+  font-size:12px;
+  width: auto;
+  border-bottom: 1px solid;
 }
 
 #toolbar .hidden_bar .twitter_feed {

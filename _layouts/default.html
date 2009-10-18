@@ -61,7 +61,9 @@
       <div class="headline">
         {{ page.headline }}
         {% if page.has_iframe %}
-            <a href="{{ page.iframe_source }}">leave sammyrosen.com</a>
+            <div class="link">
+                <a href="{{ page.iframe_source }}">leave my site</a>
+            </div>
         {% endif %}
         {% if page.has_twitter %}
           <div class="twitter_feed"></div>
