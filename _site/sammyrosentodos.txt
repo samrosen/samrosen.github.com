@@ -4,10 +4,13 @@
 * Twitter Style Bug - D
 
 *** Fix Timing on Rollout
-*** Carousel Images (Compressed) & Fix Buttons
+*** Fix Buttons on Carousel
 *** Browser Testing
 
-* Custom 404
+Carousel Images (Compressed) & 
+
+
+* Custom 404 - N
 * Graceful Degradation
 * iPhone Version
 
