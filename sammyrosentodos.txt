@@ -2,17 +2,14 @@
 
 * iFrames - D
 * Twitter Style Bug - D
+* Custom 404 - N
 
 *** Fix Timing on Rollout
 *** Fix Buttons on Carousel
 *** Browser Testing
 
-Carousel Images (Compressed) & 
-
-
-* Custom 404 - N
 * Graceful Degradation
-* iPhone Version
+* iPhone Version - Force Orientation - Make
 
 * Launch with Fix DNS Stuff - S
 
