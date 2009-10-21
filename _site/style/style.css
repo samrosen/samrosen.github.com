@@ -1,7 +1,7 @@
 html {
 }
 body {
-	position:relative;
+  position:relative;
   background: #fff
   overflow:auto;
   height:100%;
@@ -10,13 +10,13 @@ iframe {
   margin-top:58px;
 }
 #toolbar {
-	position:absolute;
-	top:70px;
-	width:100%;
-	color:#fff;
-	font-family: Helvetica, Verdana, Arial, sans-serif;
-	font-size: 18px;
-	min-width:780px;
+  position:absolute;
+  top:70px;
+  width:100%;
+  color:#fff;
+  font-family: Helvetica, Verdana, Arial, sans-serif;
+  font-size: 18px;
+  min-width:780px;
 }
 #toolbar .main {
   padding:18px 0;
@@ -30,8 +30,8 @@ iframe {
   color:#fff;
 }
 #toolbar h1 {
-	float:left;
-	margin-left:18px;
+  float:left;
+  margin-left:18px;
 }
 
 #toolbar h1 a {border:none;}
@@ -50,6 +50,10 @@ body.who #toolbar .nav .who, body.what #toolbar .nav .what, body.where #toolbar 
   background:#000;
   opacity:0.85;
   height:95px;
+  /* new from gus */
+/*  position: absolute;*/
+/*  width: 100%;*/
+/*  z-index: 9999;*/
 }
 
 #toolbar .hidden_bar .headline {
