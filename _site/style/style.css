@@ -1,13 +1,13 @@
 html {
 }
 body {
-  position:relative;
+  position: relative;
   background: #fff
-  overflow:auto;
-  height:100%;
+  overflow: auto;
+  height: 100%;
 }
 iframe {
-  margin-top:58px;
+  margin-top: 58px;
 }
 
 /*
@@ -41,24 +41,12 @@ iframe {
 
 #toolbar h1 a {border:none;}
 #toolbar .nav { margin-right: 18px; }
-/*#toolbar .nav a { border-bottom:0; }*/
-/*#toolbar .nav a:hover { border-bottom:0 }*/
-/*#toolbar .nav .who, #toolbar .nav .what, #toolbar .nav .where, #toolbar .nav .with {position:absolute;}*/
-/*#toolbar .main .nav .who { right:272px; position:absolute; }
-#toolbar .main .nav .what { right:190px; position:absolute; }
-#toolbar .main .nav .where { right:98px; position:absolute; }
-#toolbar .main .nav .with { right:22px; position:absolute; }
-*/
-#toolbar .main .nav .who { float: right; padding-left: 45px; }
-#toolbar .main .nav .what { float: right; padding-left: 45px; }
-#toolbar .main .nav .where { float: right; padding-left: 45px; }
-#toolbar .main .nav .with { float: right; padding-left: 45px; }
 
-/*body.who #toolbar .nav .who,
-  body.what #toolbar .nav .what,
-  body.where #toolbar .nav .where,
-  body.with #toolbar .nav .with { border-bottom:0; }
-*/
+#toolbar .main .nav { float: right; }
+#toolbar .main .nav .who { padding-left: 45px; }
+#toolbar .main .nav .what { padding-left: 45px; }
+#toolbar .main .nav .where { padding-left: 45px; }
+#toolbar .main .nav .with { padding-left: 45px; }
 
 #toolbar .hidden_bar {
   padding:18px 0;
@@ -120,7 +108,7 @@ iframe {
 #content a:visited {
   border-bottom: 1px solid #D0D0D0;
 }
-#content .slideshow { position:relative; float:left; }
+#content .slideshow { position: relative; float: left; }
 #content button {
   color:#fff;
   font-size:25px;
