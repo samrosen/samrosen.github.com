@@ -58,7 +58,7 @@
         <a href="/with.html" class="with">with</a>
       </div>  
     </div>
-    <div class='hidden_bar'>
+    <div class='hidden_bar{% if page.hide_hidden_bar_onload %} hide_now{% endif %}'>
       <div class="headline" id="hidden-bar-headline">
         {{ page.headline }}
         {% if page.has_iframe %}

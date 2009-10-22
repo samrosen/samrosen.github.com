@@ -30,7 +30,7 @@ $(document).ready(function(){
     } // function = onMouseOut callback (REQUIRED)
   });
 
-  $(".hidden_bar").hide();
+  $(".hidden_bar.hide_now").hide();
 
   // Picture pages, picture pages, lots of fun with ...
 
