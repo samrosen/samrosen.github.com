@@ -23,10 +23,10 @@ $(document).ready(function(){
     interval: 0, // number = milliseconds for onMouseOver polling interval
     timeout: 400, // number = milliseconds delay before onMouseOut
     over: function() {
-      $(".hidden_bar").show();
+      $(".hidden_bar").slideDown("normal");
     }, // function = onMouseOver callback (REQUIRED)
     out: function() { 
-      $(".hidden_bar").hide();
+      $(".hidden_bar").slideUp("normal");
     } // function = onMouseOut callback (REQUIRED)
   }
   $('#toolbar').hoverIntent(hiConfig);

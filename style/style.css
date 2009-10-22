@@ -9,6 +9,11 @@ body {
 iframe {
   margin-top:58px;
 }
+
+/*
+ * Toolbar
+ */
+
 #toolbar {
   position:absolute;
   top:70px;
@@ -35,25 +40,31 @@ iframe {
 }
 
 #toolbar h1 a {border:none;}
-#toolbar .nav {margin-right:18px;}
-#toolbar .nav a {border-bottom:0;}
-#toolbar .nav a:hover {border-bottom:0}
-#toolbar .nav .who, #toolbar .nav .what, #toolbar .nav .where, #toolbar .nav .with {position:absolute;}
-#toolbar .nav .who {right:272px;}
-#toolbar .nav .what {right:190px;}
-#toolbar .nav .where {right:98px;}
-#toolbar .nav .with {right:22px;}
-#toolbar .nav ul {top:68px;}
-body.who #toolbar .nav .who, body.what #toolbar .nav .what, body.where #toolbar .nav .where, body.with #toolbar .nav .with {border-bottom:0;}
+#toolbar .nav { margin-right: 18px; }
+/*#toolbar .nav a { border-bottom:0; }*/
+/*#toolbar .nav a:hover { border-bottom:0 }*/
+/*#toolbar .nav .who, #toolbar .nav .what, #toolbar .nav .where, #toolbar .nav .with {position:absolute;}*/
+/*#toolbar .main .nav .who { right:272px; position:absolute; }
+#toolbar .main .nav .what { right:190px; position:absolute; }
+#toolbar .main .nav .where { right:98px; position:absolute; }
+#toolbar .main .nav .with { right:22px; position:absolute; }
+*/
+#toolbar .main .nav .who { float: right; padding-left: 45px; }
+#toolbar .main .nav .what { float: right; padding-left: 45px; }
+#toolbar .main .nav .where { float: right; padding-left: 45px; }
+#toolbar .main .nav .with { float: right; padding-left: 45px; }
+
+/*body.who #toolbar .nav .who,
+  body.what #toolbar .nav .what,
+  body.where #toolbar .nav .where,
+  body.with #toolbar .nav .with { border-bottom:0; }
+*/
+
 #toolbar .hidden_bar {
   padding:18px 0;
   background:#000;
   opacity:0.85;
   height:95px;
-  /* new from gus */
-/*  position: absolute;*/
-/*  width: 100%;*/
-/*  z-index: 9999;*/
 }
 
 #toolbar .hidden_bar .headline {
@@ -63,7 +74,7 @@ body.who #toolbar .nav .who, body.what #toolbar .nav .what, body.where #toolbar 
   font-size:20px;
 }
 
-#toolbar .hidden_bar .headline .link a{
+#toolbar .hidden_bar .headline .link a {
   margin-top:5px;
   font-size:12px;
   width: auto;
@@ -75,9 +86,13 @@ body.who #toolbar .nav .who, body.what #toolbar .nav .what, body.where #toolbar 
     padding: 2px 0px;
 }
 
-#toolbar .hidden_bar .nav {font-size:12px;}
-#toolbar .hidden_bar .nav li {padding:4px 0;}
+#toolbar #hidden-bar-nav { font-size:12px; }
+  #toolbar #hidden-bar-nav ul { float: right; display: block; width: auto; padding-left: 2em; }
+    #toolbar #hidden-bar-nav ul li { padding-bottom: 8px; }
 
+/*
+ * Content
+ */
 
 #content {
   margin:0 18px;

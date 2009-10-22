@@ -51,10 +51,10 @@
     <div class="main">
       <h1><a href='../index.html'>sam rosen</a></h1>
       <div class="nav">
-        <a href="/who.html" class="who">who</a>
-        <a href="/what.html" class="what">what</a>
-        <a href="/where.html" class="where">where</a>
         <a href="/with.html" class="with">with</a>
+        <a href="/where.html" class="where">where</a>
+        <a href="/what.html" class="what">what</a>
+        <a href="/who.html" class="who">who</a>
       </div>  
     </div>
     <div class='hidden_bar'>
@@ -71,27 +71,27 @@
       </div>
 
       <div class="nav" id="hidden-bar-nav">
-        <ul class="who">
-          {% for post in site.categories.who %}
+        <ul class="with">
+          {% for post in site.categories.with %}
           <li><a href="{{ post.url }}">{{ post.title }}</a></li>
           {% endfor %}
         </ul>
-        
-        <ul class="what">
-          {% for post in site.categories.what %}
-          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-          {% endfor %}
-        </ul>
-        
+
         <ul class="where">
           {% for post in site.categories.where %}
           <li><a href="{{ post.url }}">{{ post.title }}</a></li>
           {% endfor %}
           <li><a href="mailto:sam@sammyrosen.com">email</a></li>
         </ul>
-        
-        <ul class="with">
-          {% for post in site.categories.with %}
+
+        <ul class="what">
+          {% for post in site.categories.what %}
+          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+          {% endfor %}
+        </ul>
+
+        <ul class="who">
+          {% for post in site.categories.who %}
           <li><a href="{{ post.url }}">{{ post.title }}</a></li>
           {% endfor %}
         </ul>
