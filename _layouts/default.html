@@ -9,17 +9,16 @@
   <link rel="stylesheet" href="/style/style.css" type="text/css" media="screen" charset="utf-8" />
   <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
   <style type="text/css">
+    {% if page.has_iframe %}
+      html, body { height: 100%; }
+    {% endif %}
     body {
       background: {{ page.background }};
       {% if page.has_iframe %}
-        overflow:hidden;
+        overflow: hidden;
       {% endif %}
     }
-    iframe {
-      height: {{ page.iframe_height }};
-      margin-top: {{ page.iframe_margin}}
-    }
-    
+
     #toolbar {
       top: {{ page.toolbar_top }}px;
     }
@@ -42,11 +41,13 @@
   </style>
 </head>
 <body class='{{ page.title }}'>
-  <div class="iframe_div">
-    {% if page.has_iframe %}
+
+  {% if page.has_iframe %}
+  <div id="iframe_content">
     <iframe src="{{ page.iframe_source }}" width="100%" height="100%" frameborder="0"></iframe>
-    {% endif %}
   </div>
+  {% endif %}
+
   <div id="toolbar">
     <div class="main">
       <h1><a href='../index.html'>sam rosen</a></h1>

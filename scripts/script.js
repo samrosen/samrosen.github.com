@@ -11,9 +11,7 @@ function loadTweets() {
   Cufon.now();
 }
 
-
 $(document).ready(function(){
-
   loadTweets();
 
   Cufon.replace('.nav a, h1 a, .headline, #content');  
