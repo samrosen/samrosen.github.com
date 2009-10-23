@@ -12,7 +12,10 @@ function loadTweets() {
 }
 
 $.twitterCallback2 = function() {
-  console.log('hey');
+  alert('hey1')
+}
+var twitterCallback2 = function() {
+  alert('hey2')
 }
 
 $(document).ready(function(){
