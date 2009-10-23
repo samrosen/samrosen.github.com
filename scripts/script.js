@@ -14,7 +14,7 @@ function loadTweets() {
 }
 
 $.twitterCallback2 = function() {
-  alert('hey ho');
+  // alert('hey ho');
   // Cufon.replace('.twitter_feed span');
   // Cufon.now();
 }
