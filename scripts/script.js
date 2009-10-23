@@ -1,6 +1,6 @@
 // Used as a callback from jquery.twitter.js to know when tweets have been loaded so we can cufon them
 var tweetsLoaded = function() {
-  Cufon.replace('.twitter_feed span');
+  Cufon.replace('.twitter_feed li');
   Cufon.now();
 }
 
