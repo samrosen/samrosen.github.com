@@ -44,7 +44,7 @@ $(document).ready(function(){
     btnPrev: "button.prev",
     visible: 1,
     speed: 700,
-    auto: 3500
+    auto: 5000
   });
 
   $('#content .slideshow').hover(
