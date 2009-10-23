@@ -35,8 +35,23 @@
       line-height: ;
     }
   </style>
+
+  <!--[if lt IE 7]>
+  <style>
+  body { background:#000; }
+  #toolbar { top: 0px; }
+  #toolbar .main { background: #000; }
+  #toolbar .hidden_bar { background:#333; }
+  #content { color:white; font-size:35px; }
+  a { text-decoration:none; }
+  #iframe_content { display:none; }
+  </style>
+  <![endif]-->
+  
 </head>
 <body class='who'>
+
+  
 
   
 
@@ -99,6 +114,10 @@
   </div>
   
   <div id="content">
+    <!--[if lt IE 7]>
+    <p>IE6 is no fun.</p>
+    <p>may I suggest a more <a href="http://www.apple.com/safari/">modern browser</a>.</p>
+    <![endif]-->
     <div class="slideshow">
   <ul>
     <li><img src="images/sam01.png" alt="" width="390" height="278" ></li>
@@ -127,7 +146,7 @@ the world, chicago, or at least a large portion of the local playground.
 
   <script src="/scripts/script.js" type="text/javascript" charset="utf-8"></script>
   <script type="text/javascript"> Cufon.now(); </script>
-  
+
   <script type="text/javascript">
   var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
   document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));

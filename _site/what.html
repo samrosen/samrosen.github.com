@@ -35,8 +35,23 @@
       line-height: ;
     }
   </style>
+
+  <!--[if lt IE 7]>
+  <style>
+  body { background:#000; }
+  #toolbar { top: 0px; }
+  #toolbar .main { background: #000; }
+  #toolbar .hidden_bar { background:#333; }
+  #content { color:white; font-size:35px; }
+  a { text-decoration:none; }
+  #iframe_content { display:none; }
+  </style>
+  <![endif]-->
+  
 </head>
 <body class='what'>
+
+  
 
   
 
@@ -99,6 +114,10 @@
   </div>
   
   <div id="content">
+    <!--[if lt IE 7]>
+    <p>IE6 is no fun.</p>
+    <p>may I suggest a more <a href="http://www.apple.com/safari/">modern browser</a>.</p>
+    <![endif]-->
     i am a designer, photographer, business man, brother and eli’s father.
 
 i am a founding member of <a href="http://www.onedesigncompany.com">one design company: a design firm focusing on high-end web development</a>, <a href="http://www.thepostfamily.com">the post family: an art collective, blog and gallery</a> and <a href="http://www.coworkchicago.com">coop: a coworking space in chicago</a>.<br /><br />
@@ -115,7 +134,7 @@ I've been lucky enough to collaborate on a vast array of pretty cool projects in
 
   <script src="/scripts/script.js" type="text/javascript" charset="utf-8"></script>
   <script type="text/javascript"> Cufon.now(); </script>
-  
+
   <script type="text/javascript">
   var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
   document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
