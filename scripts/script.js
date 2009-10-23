@@ -7,8 +7,16 @@ function loadTweets() {
     showHeading: false,
     showProfileLink: false
   });
+
+  // This just styes the "Twittering Twitter" text, but the main replacement happens in the callback below.
   Cufon.replace('.twitter_feed span');
   Cufon.now();
+}
+
+$.twitterCallback2 = function() {
+  alert('hey ho');
+  // Cufon.replace('.twitter_feed span');
+  // Cufon.now();
 }
 
 $(document).ready(function(){
