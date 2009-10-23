@@ -98,6 +98,8 @@
 
 				// add unique class to last list item
 				tl.find("li:last").addClass("lastTweet");
+				
+				tweetsLoaded();
 			});
 		});
 	};

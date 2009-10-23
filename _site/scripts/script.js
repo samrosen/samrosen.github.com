@@ -1,3 +1,9 @@
+// Used as a callback from jquery.twitter.js to know when tweets have been loaded so we can cufon them
+var tweetsLoaded = function() {
+  Cufon.replace('.twitter_feed li');
+  Cufon.now();
+}
+
 function loadTweets() {
   $(".twitter_feed").getTwitter({
     userName: "rosenboy",
@@ -7,8 +13,7 @@ function loadTweets() {
     showHeading: false,
     showProfileLink: false
   });
-  Cufon.replace('.twitter_feed span');
-  Cufon.now();
+  tweetsLoaded(); // this call accounts for cufon'ing the loaderText
 }
 
 $(document).ready(function(){
@@ -38,7 +43,8 @@ $(document).ready(function(){
     btnNext: "button.next",
     btnPrev: "button.prev",
     visible: 1,
-    speed: 700
+    speed: 700,
+    auto: 5000
   });
 
   $('#content .slideshow').hover(
