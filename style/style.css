@@ -119,3 +119,6 @@ iframe {
 }
 #content button.prev { left:40px; }
 #content button.next { left:325px; }
+
+
+#twitter_update_list a { font-size: 100% !important; font-weight: bold; }
