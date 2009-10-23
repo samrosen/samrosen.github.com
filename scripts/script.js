@@ -11,7 +11,7 @@ function loadTweets() {
   Cufon.now();
 }
 
-var twitterCallback2 = function() {
+$.twitterCallback2 = function() {
   console.log('hey');
 }
 
