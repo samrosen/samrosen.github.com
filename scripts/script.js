@@ -1,8 +1,7 @@
-$.tweetsLoaded = function() {
-  alert('hey1')
-}
+// Used as a callback from jquery.twitter.js to know when tweets have been loaded so we can cufon them
 var tweetsLoaded = function() {
-  alert('hey2')
+  Cufon.replace('.twitter_feed span');
+  Cufon.now();
 }
 
 function loadTweets() {
@@ -14,8 +13,7 @@ function loadTweets() {
     showHeading: false,
     showProfileLink: false
   });
-  Cufon.replace('.twitter_feed span');
-  Cufon.now();
+  tweetsLoaded(); // this call accounts for cufon'ing the loaderText
 }
 
 $(document).ready(function(){
