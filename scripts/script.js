@@ -1,3 +1,10 @@
+$.tweetsLoaded = function() {
+  alert('hey1')
+}
+var tweetsLoaded = function() {
+  alert('hey2')
+}
+
 function loadTweets() {
   $(".twitter_feed").getTwitter({
     userName: "rosenboy",
@@ -9,13 +16,6 @@ function loadTweets() {
   });
   Cufon.replace('.twitter_feed span');
   Cufon.now();
-}
-
-$.twitterCallback2 = function() {
-  alert('hey1')
-}
-var twitterCallback2 = function() {
-  alert('hey2')
 }
 
 $(document).ready(function(){
