@@ -37,6 +37,7 @@ $(document).ready(function(){
 
   $(".hidden_bar.hide_now").hide();
 
+  $("#iphone a").live("click", function(){ $(".hidden_bar").slideUp("normal"); })
   // Picture pages, picture pages, lots of fun with ...
 
   $(".slideshow").jCarouselLite({
