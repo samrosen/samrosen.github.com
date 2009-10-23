@@ -43,7 +43,8 @@ $(document).ready(function(){
     btnNext: "button.next",
     btnPrev: "button.prev",
     visible: 1,
-    speed: 700
+    speed: 700,
+    auto: 3500
   });
 
   $('#content .slideshow').hover(
