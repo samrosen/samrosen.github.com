@@ -35,8 +35,15 @@
       line-height: ;
     }
   </style>
+
+  <!--[if lt IE 7]>
+  <link rel="stylesheet" href="../style/ie6.css" type="text/css" media="screen" title="no title" charset="utf-8" />
+  <![endif]-->
+  
 </head>
 <body class='who'>
+
+  
 
   
 
@@ -99,6 +106,10 @@
   </div>
   
   <div id="content">
+    <!--[if lt IE 7]>
+    <p>IE6 is no fun.</p>
+    <p>may I suggest a more <a href="http://www.apple.com/safari/">modern browser</a>.</p>
+    <![endif]-->
     <div class="slideshow">
   <ul>
     <li><img src="images/sam01.png" alt="" width="390" height="278" ></li>
@@ -126,7 +137,7 @@
 
   <script src="/scripts/script.js" type="text/javascript" charset="utf-8"></script>
   <script type="text/javascript"> Cufon.now(); </script>
-  
+
   <script type="text/javascript">
   var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
   document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
