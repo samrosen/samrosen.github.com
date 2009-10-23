@@ -60,7 +60,7 @@
 			c.show();
 
 			$.getScript("http://twitter.com/javascripts/blogger.js");
-			$.getScript("http://twitter.com/statuses/user_timeline/"+o.userName+".json?callback=tweetsLoaded&count="+o.numTweets, function() {
+			$.getScript("http://twitter.com/statuses/user_timeline/"+o.userName+".json?callback=twitterCallback2&count="+o.numTweets, function() {
 				// remove preLoader from container element
 				$(preLoaderHTML).remove();
 
@@ -98,6 +98,8 @@
 
 				// add unique class to last list item
 				tl.find("li:last").addClass("lastTweet");
+				
+				tweetsLoaded();
 			});
 		});
 	};
