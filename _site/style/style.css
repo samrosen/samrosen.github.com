@@ -101,6 +101,7 @@ iframe {
 #content a {
   color:#fff;
   border-bottom: 1px solid;
+  text-decoration:none;
 }
 #content a:visited {
   border-bottom: 1px solid #D0D0D0;

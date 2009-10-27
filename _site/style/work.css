@@ -1,0 +1,43 @@
+#work {
+  margin-top: 60px auto 0;
+	width: 850px;
+}
+#work a { text-decoration:none; }
+#work span { font-size:16px; }
+
+#work .project {
+	clear: left;
+	width: 850px;
+}
+
+#work .text {
+	width: 300px;
+	border-top: white ;
+border-top-style: solid;
+border-top-width: 1px;
+	float: left;
+	padding-top: 8px;
+	margin-right: 65px;
+	margin-bottom: 30px; 	
+}
+
+#work .image {
+	float: left;
+	width: 450px;
+		padding-bottom: 50px;
+}
+
+.title {
+	font-weight: bold;
+	padding-bottom: 12px;
+	float: left;
+}
+
+.description {
+	float: left;
+ 	padding-bottom: 12px;
+}
+
+.address {
+	float: left;
+}
