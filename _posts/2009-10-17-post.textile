@@ -1,7 +1,7 @@
 ---
 layout: default
 title: post family
-category: with
+category: where
 headline: http://www.thepostfamily.com
 background: black
 toolbar_top: 0
