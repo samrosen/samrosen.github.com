@@ -1,7 +1,7 @@
 ---
 layout: default
 title: sam shoots
-category: with
+category: where
 headline: http://www.samshoots.com
 background: black
 toolbar_top: 0

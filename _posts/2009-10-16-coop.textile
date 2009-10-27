@@ -1,7 +1,7 @@
 ---
 layout: default
 title: coop
-category: with
+category: where
 headline: http://www.coworkchicago.com
 main_background: "#bb1128"
 hidden_bar_background: "#bb1128"

@@ -4,47 +4,47 @@
   <meta charset="UTF-8">
   <meta name="description" content="Sam Rosen is a designer, artist and business man, based out of Chicago." />
   <meta name="keywords" content="post family, artist, designer, technology, internet, entrepreneur, web design, design, chicago, internet, computers, sam rosen, photography, sexy" />
-  <title>sam rosen {% if page.title %} | {{ page.title }} {% endif %}</title>
+  <title>sam rosen  | flickr </title>
   <link rel="stylesheet" href="/style/reset.css" type="text/css" media="screen" charset="utf-8" />
   <link rel="stylesheet" href="/style/style.css" type="text/css" media="screen" charset="utf-8" />
   <link rel="stylesheet" href="/style/work.css" type="text/css" media="screen" title="no title" charset="utf-8" />
   
   <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
   <style type="text/css">
-    {% if page.has_iframe %}
+    
       html, body { height: 100%; }
-    {% endif %}
+    
     body {
-      background: {{ page.background }};
-      {% if page.has_iframe %}
+      background: #FFF;
+      
         overflow: hidden;
-      {% endif %}
+      
     }
 
     #toolbar {
-      top: {{ page.toolbar_top }}px;
-      color: {{ page.toolbar_color }};
+      top: 0px;
+      color: ;
     }
     
     #toolbar a{
-      color: {{ page.toolbar_color }};
+      color: ;
     }
     
     #toolbar .main {
-      opacity: {{ page.main_opacity }};
-      background: {{ page.main_background }};
+      opacity: 1;
+      background: #0063dc;
     }
     #toolbar .hidden_bar {
-      opacity: {{ page.hidden_bar_opacity }};
-      background: {{ page.hidden_bar_background }};
-      height: {{ page.hidden_bar_height }};
+      opacity: .8;
+      background: #0063dc;
+      height: ;
     }
     #content {
-      margin: {{ page.content_margin }};
-      top: {{ page.content_top }};
-      color: {{ page.body_color }};
-      font-size: {{ page.font_size }};
-      line-height: {{ page.line_height }};
+      margin: ;
+      top: ;
+      color: ;
+      font-size: ;
+      line-height: ;
     }
   </style>
 
@@ -55,13 +55,13 @@
   <link media="only screen and (max-device-width: 480px)" href="/style/iPhone.css" type="text/css" rel="stylesheet" />
   
 </head>
-<body class='{{ page.title }}'>
+<body class='flickr'>
 
-  {% if page.has_iframe %}
+  
   <div id="iframe_content">
-    <iframe src="{{ page.iframe_source }}" width="100%" height="100%" frameborder="0"></iframe>
+    <iframe src="http://www.flickr.com/photos/samshoots" width="100%" height="100%" frameborder="0"></iframe>
   </div>
-  {% endif %}
+  
 
   
 
@@ -75,43 +75,51 @@
         <a href="/with.html" class="with">with</a>
       </div>  
     </div>
-    <div class='hidden_bar{% if page.hide_hidden_bar_onload %} hide_now{% endif %}'>
+    <div class='hidden_bar'>
       <div class="headline" id="hidden-bar-headline">
-        {{ page.headline }}
-        {% if page.has_iframe %}
+        http://www.flickr.com/photos/samshoots
+        
             <div class="link">
-                <a href="{{ page.iframe_source }}">leave my site</a>
+                <a href="http://www.flickr.com/photos/samshoots">leave my site</a>
             </div>
-        {% endif %}
-        {% if page.has_twitter %}
-          <div class="twitter_feed"></div>
-        {% endif %}
+        
+        
       </div>
 
       <div class="nav" id="hidden-bar-nav">
         <ul class="with">
-          {% for post in site.categories.with %}
-          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-          {% endfor %}
+          
+          <li><a href="/with/facebook.html">facebook</a></li>
+          
+          <li><a href="/with/linkedin.html">linkedin</a></li>
+          
+          <li><a href="/with/flickr.html">flickr</a></li>
+          
+          <li><a href="/with/twitter.html">twitter</a></li>
+          
           <li><a href="mailto:sam@sammyrosen.com">email</a></li>
         </ul>
 
         <ul class="where">
-          {% for post in site.categories.where %}
-          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-          {% endfor %}
+          
+          <li><a href="/where/onedesign.html">one design</a></li>
+          
+          <li><a href="/where/post.html">post family</a></li>
+          
+          <li><a href="/where/coop.html">coop</a></li>
+          
+          <li><a href="/where/law.html">one law</a></li>
+          
+          <li><a href="/where/shoots.html">sam shoots</a></li>
+          
         </ul>
 
         <ul class="what">
-          {% for post in site.categories.what %}
-          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-          {% endfor %}
+          
         </ul>
 
         <ul class="who">
-          {% for post in site.categories.who %}
-          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-          {% endfor %}
+          
         </ul>
       </div>
       <div id='iphone' class='close_nav'>
@@ -126,7 +134,7 @@
     <p>IE6 is no fun.</p>
     <p>may I suggest a more <a href="http://www.apple.com/safari/">modern browser</a>.</p>
     <![endif]-->
-    {{ content }}
+    <div></div>
   </div>
   <script src="/scripts/jquery-1.3.2.js" type="text/javascript" charset="utf-8"></script>
   <script src="/scripts/cofon-yui.js" type="text/javascript" charset="utf-8"></script>
