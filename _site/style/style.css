@@ -41,6 +41,7 @@ iframe {
 #toolbar .nav { margin-right: 18px; }
 
 #toolbar .main .nav { float: right; }
+#toolbar .main .nav a:hover { text-decoration:underline; }
 #toolbar .main .nav .who { padding-left: 45px; }
 #toolbar .main .nav .what { padding-left: 45px; }
 #toolbar .main .nav .where { padding-left: 45px; }
