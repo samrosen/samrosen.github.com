@@ -41,11 +41,11 @@ iframe {
 #toolbar .nav { margin-right: 18px; }
 
 #toolbar .main .nav { float: right; }
-#toolbar .main .nav a:hover { text-decoration:underline; }
-#toolbar .main .nav .who { padding-left: 45px; }
-#toolbar .main .nav .what { padding-left: 45px; }
-#toolbar .main .nav .where { padding-left: 45px; }
-#toolbar .main .nav .with { padding-left: 45px; }
+#toolbar .main .nav a:hover { border-bottom:1px solid; }
+#toolbar .main .nav .who { margin-left: 45px; }
+#toolbar .main .nav .what { margin-left: 45px; }
+#toolbar .main .nav .where { margin-left: 45px; }
+#toolbar .main .nav .with { margin-left: 45px; }
 
 #toolbar .hidden_bar {
   padding:18px 0;
