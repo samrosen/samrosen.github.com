@@ -20,6 +20,8 @@ $(document).ready(function(){
   loadTweets();
 
   Cufon.replace('.nav a, h1 a, .headline, #content, #iphone a');  
+  
+  
 
   // The cool hidden tab nav bar thingamabob
 
