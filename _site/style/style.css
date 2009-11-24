@@ -1,4 +1,7 @@
-body { background: #fff }
+body {  background: #fff;
+        background-repeat: no-repeat;
+  }
+  
 #iphone { display:none; }
 
 #iframe_content { height: 100%; }
