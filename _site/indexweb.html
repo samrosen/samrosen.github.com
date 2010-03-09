@@ -12,14 +12,18 @@
   <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
   <style type="text/css">
     
+      html, body { height: 100%; }
+    
     body {
-      background: url(images/zoo.jpg);;
+      background: ;
       background-repeat: no-repeat;
+      
+        overflow: hidden;
       
     }
 
     #toolbar {
-      top: 0px;
+      top: -1px;
       color: ;
     }
     
@@ -29,17 +33,17 @@
     
     #toolbar .main {
       opacity: .8;
-      background: #16781f;
+      background: #156c8a;
     }
     #toolbar .hidden_bar {
-      opacity: .7;
-      background: #000;
+      opacity: .8;
+      background: #156c8a;
       height: ;
     }
     #content {
       margin: ;
       top: ;
-      color: ;
+      color: white;
       font-size: ;
       line-height: ;
     }
@@ -54,6 +58,10 @@
 </head>
 <body class='home'>
 
+  
+  <div id="iframe_content">
+    <iframe src="http://www.leorosen.com" width="100%" height="100%" frameborder="0"></iframe>
+  </div>
   
 
   
@@ -70,10 +78,12 @@
     </div>
     <div class='hidden_bar hide_now'>
       <div class="headline" id="hidden-bar-headline">
-        San Jose, Austin, LA this month.<br /><br />
+        my brother leo takes amazing pictures and is showing them at <a href="http://www.coworkchicago.com">the coop</a> right now.
         
+            <div class="link">
+                <a href="http://www.leorosen.com">leave my site</a>
+            </div>
         
-          <div class="twitter_feed"></div>
         
       </div>
 
@@ -126,7 +136,6 @@
     <p>may I suggest a more <a href="http://www.apple.com/safari/">modern browser</a>.</p>
     <![endif]-->
     <div></div>
-
   </div>
   <script src="/scripts/jquery-1.3.2.js" type="text/javascript" charset="utf-8"></script>
   <script src="/scripts/cofon-yui.js" type="text/javascript" charset="utf-8"></script>
