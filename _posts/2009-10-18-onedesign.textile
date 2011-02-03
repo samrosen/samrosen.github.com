@@ -3,8 +3,8 @@ layout: default
 title: one design
 category: where
 headline: http://www.onedesigncompany.com
-main_background: "#5e8d2a"
-hidden_bar_background: "#5e8d2a"
+main_background: "#000"
+hidden_bar_background: "#000"
 background: "#5e8d2a"
 main_opacity: 1
 toolbar_top: 0

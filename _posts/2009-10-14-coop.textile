@@ -1,0 +1,16 @@
+---
+layout: default
+title: coop
+category: where
+headline: http://www.coworkchicago.com
+main_background: "#bb1128"
+hidden_bar_background: "#bb1128"
+background: "#e06060"
+toolbar_top: 0
+main_opacity: 1
+hidden_bar_opacity: .9
+has_iframe: true
+iframe_source: http://www.coworkchicago.com
+---
+
+<div></div>
