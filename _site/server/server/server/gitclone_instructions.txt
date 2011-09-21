@@ -1,5 +1,0 @@
-get permission to access
-copy clone
-
-go to directory you want to use
-git clone   PASTE clone

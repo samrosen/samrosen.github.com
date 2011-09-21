@@ -1,7 +1,0 @@
-body { background:#000; }
-#toolbar { top: 0px; }
-#toolbar .main { background: #000; }
-#toolbar .hidden_bar { background:#333; }
-#content { color:white; font-size:35px; }
-a { text-decoration:none; }
-#iframe_content { display:none; }
