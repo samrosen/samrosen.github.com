@@ -5,18 +5,43 @@ var tweetsLoaded = function() {
 }
 
 function loadTweets() {
-  $(".twitter_feed").getTwitter({
-    userName: "rosenboy",
-    numTweets: 1,
-    loaderText: "Twittering Twitter...",
-    slideIn: false,
-    showHeading: false,
-    showProfileLink: false
-  });
-  tweetsLoaded(); // this call accounts for cufon'ing the loaderText
+  if ($(".twitter_feed").length > 0) {
+    $(".twitter_feed").getTwitter({
+      userName: "rosenboy",
+      numTweets: 1,
+      loaderText: "Twittering Twitter...",
+      slideIn: false,
+      showHeading: false,
+      showProfileLink: false
+    });
+    tweetsLoaded(); // this call accounts for cufon'ing the loaderText 
+  }
+}
+
+function setupContentArea(){
+  $("#content").css({
+    'position':'absolute',
+    'top':'0px',
+    'height':'100%',
+    'width':'100%',
+    'margin':'0px'
+  })
+}
+
+function loadMap(){
+  setupContentArea();
+  var latlng = new google.maps.LatLng(15,100);
+  var myOptions = {
+    zoom: 6,
+    center: latlng,
+    disableDefaultUI: true,
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+  };
+  var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
 }
 
 $(document).ready(function(){
+
   loadTweets();
 
   Cufon.replace('.nav a, h1 a, .headline, #content, #iphone a');  
@@ -35,8 +60,6 @@ $(document).ready(function(){
     } // function = onMouseOut callback (REQUIRED)
   });
 
-  $(".hidden_bar.hide_now").hide();
-
   $("#iphone a").live("click", function(){ $(".hidden_bar").slideUp("normal"); })
   // Picture pages, picture pages, lots of fun with ...
 
@@ -52,4 +75,8 @@ $(document).ready(function(){
     function() { $("button").fadeIn(); },
     function() { $("button").fadeOut(); }
   );
+  
+  if ($("#map_canvas").length > 0) {
+    loadMap();
+  }
 });
